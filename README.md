@@ -38,20 +38,32 @@ PRs should be posted _before_ class begins on Tuesday, January 2, 2024.
 ### Interview Practice Questions
 
 1. What are three (3) syntax difference between HTML and JSX?
+ - three differences between HTML and JSX syntax would be that 1. HTML uses opening and closing tags, and you would need to link a JavaScript file into the code in order for Javascript logic to be used. 2. JSX still uses JavaScript, and there's one area in the basic function that HTML can be used. 3. in JSX when using HTML opening tags, you can write JavaScript code.
+
+    - researched answer: the markdown syntax used for JSX is similar to HTML. JSX uses "className" rather than "class" because "class" is a protected JavaScript word.
 
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
+- when you run the command yarn in terminal it adds a nodes_modules file
+
+    -researched answer: node modules need to be organized properly in order for a react app to run correctly. yarn is responsible for managing node modules.
 
 3. What is the difference between state values and props in React?
+- i'm still trying to learn about state values, but i do know they can be used if you're trying to do something to different kinds of data types. if you wanted to add logic to an array, you can use a useState to tell your program how you want the array to be used. props are used in component files when you want to use a function in a component file that is found in the App.js file, so it links the files together and you can pass information through props.
+
+    - researched answer: the useState method is used to define a variable and it's value, and creates a method that can be called on to update the value as needed. "state" is used to store data within the react component.
+        - at this point, i'm not competely sure is i know what a state value is, and i don't really see a specfic definition for it. but i think it might be the (0) in this: const [count, setCount] = useState(0)
 
 4. STRETCH (optional): What is the difference between a div tag and a span tag?
 
+    - researched answer: "A div element is used for block-level organization and styling of page elements, whereas a span element is used for inline organization and styling."
+
 ### Looking Ahead: Terms for Next Unit
 
-1. Object-oriented programming:
+1. Object-oriented programming: created to deal with large software systems. ruby is an object-oritented language.
 
-2. Ruby:
+2. Ruby: "Ruby is a general-purpose, interpreted, dynamically-typed, server-side scripting language." ruby is an open source programming language.
 
-3. Ruby Hashes:
+3. Ruby Hashes: a collection of keys and their values. "hash = {key: value}"
 
 ---
 
